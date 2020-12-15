@@ -4,7 +4,7 @@ def oxford_comma(array)
   array.each_with_index do |element, index| 
     
     if (array.length == 1)
-      out_string.push "#{element}"
+      out_string << "#{element}"
     elsif (index != (array.length - 1))
       out_string.push "#{element}, "
     elsif (index == (array.length - 1))
