@@ -5,8 +5,8 @@ def oxford_comma(array)
     
     if (index != (array.length - 1))
       out_string.push "#{element}, "
-    else if (index == (array.length - 1))
-      #out_string << "and #{element}";
+    elsif (index == (array.length - 1))
+      out_string << "and #{element}";
     end
   
   end
