@@ -3,7 +3,9 @@ def oxford_comma(array)
   out_string = ""
   array.each_with_index do |element, index| 
     
-    if (index != (array.length - 1))
+    if (array.length == 1)
+      out_string.push "#{element}"
+    elsif (index != (array.length - 1))
       out_string.push "#{element}, "
     elsif (index == (array.length - 1))
       out_string << "and #{element}";
