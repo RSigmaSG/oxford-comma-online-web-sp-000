@@ -9,4 +9,8 @@ def oxford_comma(array)
     end
   }
   end
+  
+  puts out_string
+  
+  return out_string
 end
